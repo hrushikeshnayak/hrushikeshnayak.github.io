@@ -16,6 +16,27 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .img-fluid {
+              height: auto;
+              transition: transform 0.3s ease;
+              border-radius: 8%;
+              width: 300px;
+              height: 400px; 
+            }
+            .img-fluid:hover {
+              transform: scale(1.3);
+            }
+            .btn-primary,
+            .btn-dark{
+              transition: transform 0.3s ease;
+            }
+            .btn-primary:hover,
+            .btn-dark:hover {
+                transition: transform 0.3s ease-in;
+                transform: scale(1.1); 
+            }
+          </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
@@ -48,25 +69,59 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 1</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">Loan Eligibility Prediction</h2>
+                                            <br>
+                                            <p>Using machine learning, this evaluates loan eligibility based on key banking metrics. Users input parameters such as loan amount, income, credit score, and property value. Predictions are generated instantly.</p>
+                                            <p>
+                                                <a class="btn btn-primary" href="https://loan-eligibility-prediction-app.streamlit.app/" target="_blank">Try it Now</a>
+                                                <span style="margin-left: 10px;"></span> 
+                                                <a class="btn btn-dark" href="https://github.com/hrushikeshnayak/machine-learning-projects/tree/main/Loan_Eligibility_Prediction" target="_blank">View Code</a>
+                                            </p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="assets/Loan_Eligibility_Prediction.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
                             <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 2</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">Image Description Generator powered by Gemini Pro Vision</h2>
+                                            <br>
+                                            <p>Explore the power of automated image description generation with the advanced features of the GeminiAI Pro Vision API. This project demonstrates a streamlined approach to generating detailed descriptions for diverse images.</p>
+                                            <p>
+                                                <a class="btn btn-primary" href="https://imagedescriptiongenerator.streamlit.app/" target="_blank">Try it Now</a>
+                                                <span style="margin-left: 10px;"></span> 
+                                                <a class="btn btn-dark" href="https://github.com/hrushikeshnayak/machine-learning-projects/tree/main/image_description_generator" target="_blank">View Code</a>
+                                            </p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="assets/image_desc_generator.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Suitable Crop Suggestion</h2>
+                                            <br>
+                                            <p>This repository features an end-to-end machine learning project for predicting suitable crops based on soil parameters. It employs multiple ML algorithms and implements a user-friendly Django web application with an input form for soil parameters. Users can input pH level, nutrient content, and moisture to generate predictions for the most suitable crops. The prediction section of the application displays the results of the ML model, offering valuable insights for agricultural decision-making.</p>
+                                            <p>
+                                                <span style="margin-left: 10px;"></span> 
+                                                <a class="btn btn-dark" href="https://github.com/hrushikeshnayak/machine-learning-projects/tree/main/Crop-Prediction" target="_blank">View Code</a>
+                                            </p>
+                                        </div>
+                                        <img class="img-fluid" src="assets/crop_prediction.png" alt="..."/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -75,19 +130,25 @@
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
+                        <p class="display-6  mb-4">Check out my other exciting projects on <a class="btn btn-dark " href="https://github.com/hrushikeshnayak?tab=repositories" target="_blank">GitHub <i class="bi bi-github"></i></a></p>
+                        <hr>
                         <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
                         <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
                     </div>
+                    
+                    
                 </div>
             </section>
         </main>
         <!-- Footer-->
+        
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto">
                         <div class="small m-0">
-                            <a href="mailto:hrushikeshnayak.mail@gmail.com.com" style="color:#000814; font-weight: bold; text-decoration: none; font-size: large;">hrushikeshnayak.mail@gmail.com</a>
+                            <a href="mailto:hrushikeshnayak.mail@gmail.com" style="color:#000814; font-weight: bold; text-decoration: none; font-size: large;">Thanks for visiting! Have a great day!</a>
+                            <hr>
                         </div>
                     </div>
                     <div class="col-auto">

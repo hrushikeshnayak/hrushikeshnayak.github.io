@@ -11785,6 +11785,9 @@ html {
   .img-fluid{
       display: none;
   }
+  .small {
+    font-size: small;
+}
 }
 
 
