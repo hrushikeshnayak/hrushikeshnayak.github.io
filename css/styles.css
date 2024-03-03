@@ -1,18 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 
-
- /* ! changes made in  .profile .profile-img  */
 
 :root {
   --bs-blue: #1e30f3;
@@ -94,12 +81,6 @@
     scroll-behavior: smooth;
   }
 }
-
-/* .navbar-nav .active {
-  background-color: #000814;
-  border-radius: 10%;
-  transition: background-color 0.3s ease;
-} */
 
 
 body {
@@ -11788,14 +11769,12 @@ html {
   .small {
     font-size: small;
 }
-header {
+
+}
+
+
+.view_h{
   min-height: 120vh;
-}
-
-}
-
-header {
-  min-height: 110vh;
 }
 
 
