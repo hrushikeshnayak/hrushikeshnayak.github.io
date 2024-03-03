@@ -11788,9 +11788,15 @@ html {
   .small {
     font-size: small;
 }
+header {
+  min-height: 120vh;
 }
 
+}
 
+header {
+  min-height: 110vh;
+}
 
 
 @media screen and (max-width: 685px) {
